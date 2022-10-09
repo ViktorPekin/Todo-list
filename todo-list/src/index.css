@@ -1,0 +1,7 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/inter.css);
+@import url(./components/app/App.css);
+@import url(./components/header/header.css);
+@import url(./components/todo-list/todoList.css);
+@import url(./components/todo-item/todoItem.css);
+@import url(./components/todo-list-api/todoListApi.css);

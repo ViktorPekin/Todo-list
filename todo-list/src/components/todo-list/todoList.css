@@ -1,0 +1,45 @@
+.todo-list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-list__form {
+  position: relative;
+}
+
+.todo-list__input {
+  border: none;
+  width: 395px;
+  height: 32px;
+  padding: 0;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 5px;
+  box-shadow: -5px 3px 5px rgba(30, 48, 212, 0.185);
+}
+
+.todo-list__button {
+  padding: 0;
+  position: absolute;
+  border: none;
+  top: 4px;
+  right: 4px;
+  width: 24px;
+  height: 24px;
+  background: center / contain no-repeat url(../../image/add.svg);
+  cursor: pointer;
+}
+
+.todo-list__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  width: 400px;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: -5px 3px 5px rgba(30, 48, 212, 0.185);
+}

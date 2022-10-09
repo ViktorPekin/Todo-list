@@ -1,0 +1,23 @@
+.header {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__link-container {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__link,
+.header__link_active {
+  color: #fff;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.header__link_active {
+  text-decoration: underline;
+}
