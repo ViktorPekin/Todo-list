@@ -1,0 +1,17 @@
+.todo-list-api {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-list-api__button {
+  margin: 0;
+  width: 400px;
+  height: 32px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: -5px 3px 5px rgba(30, 48, 212, 0.185);
+  cursor: pointer;
+}

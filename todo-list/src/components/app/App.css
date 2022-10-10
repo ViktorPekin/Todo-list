@@ -1,0 +1,7 @@
+.App {
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(103,103,166,1) 0%, rgba(82,125,184,1) 5%, rgba(50,158,211,1) 44%, rgba(34,175,225,1) 65%, rgba(25,185,233,1) 84%, rgba(0,212,255,1) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'inter', Arial, sans-serif;
+}
