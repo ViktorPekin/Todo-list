@@ -18,7 +18,13 @@
   margin: 0;
 }
 
+.todo-item__text_active {
+  margin: 0;
+  color: rgb(4, 124, 20);
+}
+
 .todo-item:after {
+  margin-top: 5px;
   content: '';
   top: 0;
   left: 0;
